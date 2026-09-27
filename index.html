@@ -7,20 +7,23 @@
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 700px; margin: 0 auto; padding: 40px 20px; color: #333; line-height: 1.6; }
         h1 { color: #1a73e8; font-size: 2em; }
+        h2 { color: #1a73e8; font-size: 1.4em; margin-top: 30px; }
         .tagline { font-size: 1.2em; color: #555; }
         .features { margin: 30px 0; }
         .features li { margin-bottom: 10px; }
         .contact { margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; font-size: 0.9em; color: #666; }
-        .cta { display: inline-block; background: #1a73e8; color: #fff; padding: 10px 20px; border-radius: 6px; text-decoration: none; margin-top: 10px; }
+        .privacy-section { margin-top: 50px; padding-top: 20px; border-top: 2px solid #1a73e8; }
+        .privacy-section p { font-size: 0.95em; color: #444; }
+        .privacy-section ul { font-size: 0.95em; color: #444; }
     </style>
 </head>
 <body>
     <h1>CopyGrid</h1>
     <p class="tagline">Copy tables from ChatGPT, Claude, and Gemini into Excel, CSV, or Markdown with perfect formatting.</p>
-    
+
     <h2>What is CopyGrid?</h2>
     <p>CopyGrid is a Chrome extension that makes copying AI-generated tables effortless. No more column misalignment, extra spaces, or broken formatting.</p>
-    
+
     <h2>Key Features</h2>
     <ul class="features">
         <li>✅ Copy as TSV (Excel) — perfect column alignment</li>
@@ -30,10 +33,33 @@
         <li>✅ Multiple Tables — extract all tables in one click</li>
         <li>✅ 100% Local — no servers, no data collection</li>
     </ul>
-    
+
     <h2>Pricing</h2>
     <p>Free version available. Pro version: <strong>$19.99 one-time</strong> (unlocks all features, including .xlsx download, JSON/SQL export, and custom cleaning rules).</p>
-    
+
+    <!-- ==================== PRIVACY POLICY SECTION ==================== -->
+    <div class="privacy-section">
+        <h2 id="privacy">Privacy Policy</h2>
+        <p><strong>Last updated: September 27, 2026</strong></p>
+
+        <p>CopyGrid ("the Extension") is developed by an independent developer. This Privacy Policy explains how CopyGrid handles your information.</p>
+
+        <p><strong>Data Collection:</strong> CopyGrid does <strong>not</strong> collect, store, transmit, or share any user data. We do not gather any personal information such as your name, email address, location, or browsing history.</p>
+
+        <p><strong>Data Processing:</strong> All operations performed by CopyGrid happen entirely within your local browser (client-side). The extension only reads the tables on the active AI platform page (ChatGPT, Claude, or Gemini) when you click the extension button, and copies the formatted text directly to your clipboard or downloads it as a file. No data is ever sent to external servers.</p>
+
+        <p><strong>Data Storage:</strong> CopyGrid uses your browser's local storage (<code>chrome.storage.local</code>) only to remember your language preference and payment status. This data never leaves your device.</p>
+
+        <p><strong>Payment Processing:</strong> CopyGrid's Pro version uses ExtensionPay and Stripe to process payments. When you make a purchase, your payment information is handled directly by Stripe. CopyGrid does not have access to your credit card details. For more information, please review Stripe's Privacy Policy.</p>
+
+        <p><strong>Third-Party Services:</strong> CopyGrid does not use any analytics, tracking, or advertising services. The only external network request is made by ExtensionPay to verify your paid status, which requires connecting to <code>extensionpay.com</code>.</p>
+
+        <p><strong>Changes to This Policy:</strong> We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last updated" date.</p>
+
+        <p><strong>Contact:</strong> If you have any questions about this Privacy Policy, please contact us at <a href="mailto:czfeng122@gmail.com">czfeng122@gmail.com</a>.</p>
+    </div>
+    <!-- ==================== END PRIVACY POLICY ==================== -->
+
     <div class="contact">
         <p>Contact: <a href="mailto:czfeng122@gmail.com">czfeng122@gmail.com</a></p>
         <p>CopyGrid is developed by an independent developer.</p>
